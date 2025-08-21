@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+<<<<<<< HEAD:backend/CollegeGrievance-Portal/.metadata/.plugins/org.eclipse.m2e.core.ui/dialog_settings.xml
+=======
+			<item value="C:\Users\HP\Desktop\CDACProjectBackend\CollegeGrievance-Portal"/>
+>>>>>>> 66cf20a (added code in backend and frontend):backend/.metadata/.plugins/org.eclipse.m2e.core.ui/dialog_settings.xml
+			<item value="C:\Users\HP\Desktop\College_Grievance_Portal\backend\CollegeGrievance-Portal"/>
+			<item value="C:\Users\HP\Desktop\College_Grievance_Portal\backend\CollegeGrievance-Portal\src"/>
+			<item value="C:\Users\HP\Desktop\College_Grievance_Portal\backend\CollegeGrievance-Portal\src\main\java\com\app\entity"/>
+			<item value="C:\Users\HP\Desktop\College_Grievance_Portal\backend\CollegeGrievance-Portal\src\main\java\com\app"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

@@ -1,7 +1,0 @@
-package com.app.serviceImpl;
-
-import com.app.service.StudentService;
-
-public interface StudentServiceImpl implements StudentService {
-
-}
