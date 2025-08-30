@@ -18,14 +18,11 @@ public class WebConfig implements WebMvcConfigurer {
 
     @Override
     public void addCorsMappings(CorsRegistry registry) {
-<<<<<<< HEAD:backend/CollegeGrievance-Portal/src/main/java/com/app/config/WebConfig.java
+
         registry.addMapping("/**") // Apply to all endpoints
             .allowedOrigins("http://localhost:3000") // React dev server
-=======
-        registry.addMapping("/**")
             // Dev: allow any localhost port (e.g., 3000, 3004)
             .allowedOriginPatterns("http://localhost:*", "http://127.0.0.1:*")
->>>>>>> 66cf20a (added code in backend and frontend):backend/src/main/java/com/app/config/WebConfig.java
             .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
             .allowedHeaders("*")
             .allowCredentials(true);

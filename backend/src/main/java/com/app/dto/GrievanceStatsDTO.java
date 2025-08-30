@@ -1,26 +1,7 @@
 package com.app.dto;
 
-<<<<<<< HEAD:backend/CollegeGrievance-Portal/src/main/java/com/app/dto/GrievanceStatsDTO.java
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-@Builder
-
-public class GrievanceStatsDTO {
-    private int totalGrievances;
-    private int pendingCount;
-    private int inProgressCount;
-    private int resolvedCount;
-    private int rejectedCount;
-    
-    //Must match JSON property names from .NET
-=======
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 
@@ -39,5 +20,5 @@ public class GrievanceStatsDTO {
 
     @Schema(description = "Number of grievances with status RESOLVED", example = "2")
     private int resolved;
->>>>>>> 66cf20a (added code in backend and frontend):backend/src/main/java/com/app/dto/GrievanceStatsDTO.java
+
 }

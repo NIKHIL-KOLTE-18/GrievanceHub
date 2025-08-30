@@ -37,14 +37,11 @@ public class GrievanceResponseDTO {
 
     private String categoryName;
 
-<<<<<<< HEAD:backend/CollegeGrievance-Portal/src/main/java/com/app/dto/GrievanceResponseDTO.java
+// ...existing code...
     @JsonProperty("FacultyId")
-    private Long facultyAssigned;   // Faculty name/email (optional)
-=======
     private Long facultyAssigned;   // Faculty id
     
     private String facultyName;
->>>>>>> 66cf20a (added code in backend and frontend):backend/src/main/java/com/app/dto/GrievanceResponseDTO.java
     
     private Long subCategoryId;
 
