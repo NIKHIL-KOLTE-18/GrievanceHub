@@ -1,12 +1,34 @@
-# React + Vite
+🚀 Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Student Module
 
-Currently, two official plugins are available:
+Login with PRN (pre-registered by the institute)
+Raise grievances with category & sub-category selection
+Track grievance status in real-time
+Edit/Delete grievances before assignment
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Faculty Module
 
-## Expanding the ESLint configuration
+Registration using Faculty ID & email
+Automatic assignment of grievances based on expertise/sub-category
+Update status & communicate with students
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Admin Module
+
+Manage categories & subcategories
+Monitor grievance flow and resolution timelines
+Ensure transparency and accountability
+
+Security
+
+Authentication & Authorization with Spring Security
+Role-based access: Student | Faculty | Admin
+
+🛠️ Tech Stack
+
+Frontend: React.js
+
+Backend: Java EE | Spring Boot | Spring Security | .NET (one module)
+
+Database: MySQL
+Authentication: Basic Authentication 
